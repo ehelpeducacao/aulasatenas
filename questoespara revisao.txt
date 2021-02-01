@@ -1,0 +1,143 @@
+
+Prova oficial 
+programação de computadores III
+
+
+A ordenação ou classificação de registros consiste em organizá-los em ordem crescente ou decrescente e assim facilitar a recuperação desses dados. A ordenação tem como objetivo facilitar as buscas e pesquisas de ocorrências de determinado elemento em um conjunto ordenado. Para realizar a ordenação de um vetor de inteiros contendo n números, foi utilizado um algoritmo de ordenação baseado na estratégia de dividir para conquistar e na divisão e ordenação recursiva das partes do vetor, obtendo um tempo de execução O(n log n). Qual das opções abaixo contém o algoritmo de ordenação descrito?
+A
+Shell Sort
+B
+Quick Sort
+C
+Merge Sort
+D
+Bucket Sort
+E
+Insertion Sort
+
+
+
+2
+Algoritmo de ordenação, em ciência da computação, é um algoritmo que coloca os elementos de uma dada sequência em uma certa ordem. Em outras palavras efetua sua ordenação completa ou parcial. O objetivo da ordenação é facilitar a recuperação dos dados de uma lista.
+Em relação aos algoritmos de ordenação, avalie se são verdadeiras (V) ou falsas (F) as afirmativas a seguir:
+I O algoritmo quicksort é muito eficiente quando temos uma quantidade pequena de elementos a ordenar. 
+II O algoritmo shell utiliza intensamente a inserção direta. 
+III No algoritmo bubble sort o número de variáveis envolvidas é pequeno.
+As afirmativas I, II e III são, respectivamente:
+A
+V, F e V.
+B
+F, V e V.
+C
+V, F e F.
+D
+F, F e V.
+E
+V, V e V.
+
+
+
+
+3 
+Quicksort é um algoritmo recursivo que utiliza a estratégia da divisão e conquista. Considerada a mais rápida ordenação baseada em comparações sobre arranjos O algoritmo quicksort é um método de ordenação comumente utilizado e que adota a estratégia de divisão e conquista. Qual a complexidade de tempo de pior caso do algoritmo?
+A
+O (1)
+B
+O (n)
+C
+O (n 2 )
+D
+O (n Log n)
+E
+O (n 2 Log n)
+
+
+4 
+A ideia do método da Bolha é inicia comparando os dois últimos elementos, o menor fica à esquerda, então comparar os dois anteriores e fazer a mesma coisa, desse modo o menor vai movendo-se para cima (como as bolhas). Sabendo disso o método de ordenação Bolha foi usado para ordenar uma tabela em ordem crescente contendo os números [10, 8, 7, 0], com relação a este pequeno conjunto de dados 	quantas comparações e quantas trocas serão executadas para ordenar este conjunto? 
+
+
+5
+Um algoritmo de ordenação é executado através dos seguintes passos: (I) escolha de um elemento da lista, denominado pivô; (II) rearranjo da lista, de forma que todos os elementos anteriores ao pivô sejam menores do que ele e que todos os elementos posteriores ao pivô sejam maiores do que ele; e, também, de modo que o pivô, ao fim do processo, esteja em sua posição final, havendo duas sublistas não ordenadas; (III) ordenação recursiva das sublistas dos elementos menores e dos elementos maiores. Descreva que algoritmo é esse?
+	
+
+6
+A ordenação ou classificação de registros consiste em organizá-los em ordem crescente ou decrescente e assim facilitar a recuperação desses dados. A ordenação tem como objetivo facilitar as buscas e pesquisas de ocorrências de determinado elemento em um conjunto ordenado, com base neste conceito e em nossas aulas correlacione os algoritmos internos de ordenação de listas da coluna à esquerda com sua descrição, na coluna à direita.
+
+1) Bubblesort.
+
+2) Ordenação por Seleção
+
+3) Ordenação por Inserção
+
+4) Shellsort
+
+5) Quicksort
+
+( ) Escolhe-se um pivot e particiona-se a lista em duas sublistas: uma com os elementos menores que ele e outra com os maiores, que, ao serem ordenadas e combinadas com o pivot, geram uma lista ordenada. O processo é aplicado às partições para ordená-las. Embora tenha uma complexidade de pior caso de O(n2 ), no caso médio é de O(n log n).
+
+( ) Encontra-se o menor item do vetor. Troca-se com o item da primeira posição do vetor. Repetem-se essas duas operações com os n - 1 itens restantes, depois com os n - 2 itens, até que reste apenas um elemento.
+( ) Método preferido dos jogadores de cartas. A cada momento existem duas partes na lista: uma ordenada (destino) e outra não ordenada (fonte). Inicialmente a lista destino tem apenas o primeiro elemento, e a fonte os demais elementos. Em cada passo a partir de i=2, seleciona-se o i-ésimo item da lista fonte. Deve-se colocá-lo no lugar apropriado na lista destino, de acordo com o critério de ordenação.
+
+( ) É uma extensão de um outro algoritmo de ordenação conhecido e permite trocas de elementos distantes um do outro, não necessariamente adjacentes. Os itens separados de h posições são rearranjados. Todo h-ésimo item leva a uma lista ordenada. Tal lista é dita estar h-ordenada.
+
+( ) Varre-se a lista trocando-se de posição os elementos adjacentes fora de ordem. Varre-se a lista até que não haja mais trocas e, neste caso, a lista está ordenada.
+
+A sequência correta, de cima para baixo, é:
+
+A
+1, 2, 3, 4, 5.
+B
+5, 2, 3, 4, 1.
+C
+1, 4, 5, 3, 2.
+D
+5, 4, 2, 3, 1.
+E
+1, 3, 2, 4, 5.
+
+7
+Resultado de imagem para metodo de ordenação bolha
+A ideia do método da Bolha é inicia comparando os dois últimos elementos, o menor fica à esquerda, então comparar os dois anteriores e fazer a mesma coisa, desse modo o menor vai movendo-se para cima (como as bolhas) Sabendo desse conceito e com base em nossa aula responda:
+Quantas comparações e trocas de posição ocorrerão se utilizarmos o algoritmo Bubble Sort para ordenar do menor para o maior valor o vetor [60,32,45,5,6,2], respectivamente:
+A
+10 e 4.
+B
+15 e 13.
+C
+25 e 15.
+D
+22 e 12.
+E
+12 e 9.
+
+8
+Algoritmo de ordenação, em ciência da computação, é um algoritmo que coloca os elementos de uma dada sequência em uma certa ordem. Em outras palavras efetua sua ordenação completa ou parcial. O objetivo da ordenação é facilitar a recuperação dos dados de uma lista. Em relação aos algoritmos de ordenação, é correto afirmar que:
+A
+o quicksort é muito eficiente e adequado quando se tem uma quantidade pequena de elementos.
+B
+a inserção direta possui um grande número de variáveis envolvidas no algoritmo, resultando em uma necessidade maior de memória.
+C
+no quicksort o tamanho máximo da pilha pode ultrapassar o número de elementos do vetor.
+D
+o bubble sort é pouco eficiente para ordenar grandes quantidades de informações.
+E
+a seleção direta precisa de muito espaço adicional durante sua execução, e tem desempenho inferior ao bubble sort.
+
+
+9
+rdenar consiste em um método de reorganizar um conjunto de objetos em uma ordem ascendente ou descendente. O objetivo principal da ordenação é simplificar a recuperação posterior de itens do conjunto ordenado.
+Considere o seguinte algoritmo de ordenação de elementos em uma lista:
+
+1. Escolha um elemento que será chamado o pivot da lista.
+2. Reordene a lista de tal forma que os elementos menores que o pivot venham antes dele e os elementos maiores ou iguais ao pivot venham depois dele. Essa operação é chamada de partição, e cria duas sublistas:
+a. a de menores que o pivot e
+b. a de maiores ou iguais ao pivot.
+3. Aplique recursivamente os passos 1 e 2 às sublistas de menores e maiores que o pivot.
+
+O algoritmo acima corresponde a qual metodo de ordenação?
+
+
+10
+
+
+Os métodos de ordenação correspondem ao processo de rearranjar um conjunto de objetos em ordem ascendente ou descendente. O objetivo da ordenação é facilitar a recuperação posterior dos itens do conjunto ordenado. Qual algoritmo de ordenação que pode ser usado em uma ampla variedade de situações?
